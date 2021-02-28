@@ -293,6 +293,8 @@ globalkeys = gears.table.join(
               {description = "open zenity calender", group = "launcher"}),
     awful.key({ modkey,           }, "a", function () awful.spawn.with_shell("alacritty -e vim ~/.config/awesome/rc.lua") end,
               {description = "open zenity calender", group = "launcher"}),
+    awful.key({ modkey, "Shift"   }, "s", function () awful.spawn("slock systemctl suspend -i") end,
+              {description = "open zenity calender", group = "launcher"}),
 
     -- Awesome functions
     awful.key({ modkey, "Control" }, "r", awesome.restart,
