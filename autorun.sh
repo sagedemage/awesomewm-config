@@ -9,12 +9,10 @@ function run {
 
 run redshift
 run volumeicon
-run discord --start-minimized
 run nm-applet
 run udiskie
 run unclutter &
-
-
+run discord --start-minimized 
 
 
 
