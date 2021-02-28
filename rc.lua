@@ -54,7 +54,7 @@ beautiful.font = "DejaVu Sans 16"
 
 -- This is used later as the default terminal and editor to run.
 terminal = "alacritty"
-editor = os.getenv("EDITOR") or "nano"
+editor = os.getenv("EDITOR") or "vim"
 editor_cmd = terminal .. " -e " .. editor
 
 -- Default modkey.
@@ -290,12 +290,15 @@ globalkeys = gears.table.join(
     awful.key({ modkey,           }, "e", function () awful.spawn("pcmanfm") end,
               {description = "open pcmanfm", group = "launcher"}),
     awful.key({ modkey,           }, "c", function () awful.spawn("zenity --calendar") end,
-              {description = "open zenity calender", group = "launcher"}),				
+              {description = "open zenity calender", group = "launcher"}),
+    awful.key({ modkey,           }, "a", function () awful.spawn.with_shell("alacritty -e vim ~/.config/awesome/rc.lua") end,
+              {description = "open zenity calender", group = "launcher"}),
+
+    -- Awesome functions
     awful.key({ modkey, "Control" }, "r", awesome.restart,
               {description = "reload awesome", group = "awesome"}),
     awful.key({ modkey, "Shift"   }, "q", awesome.quit,
               {description = "quit awesome", group = "awesome"}),
-
     awful.key({ modkey,           }, "l",     function () awful.tag.incmwfact( 0.05)          end,
               {description = "increase master width factor", group = "layout"}),
     awful.key({ modkey,           }, "h",     function () awful.tag.incmwfact(-0.05)          end,
