@@ -289,6 +289,8 @@ globalkeys = gears.table.join(
               {description = "open a terminal", group = "launcher"}),
     awful.key({ modkey,           }, "e", function () awful.spawn("pcmanfm") end,
               {description = "open a terminal", group = "launcher"}),
+    awful.key({ modkey,           }, "c", function () awful.spawn("zenity --calendar") end,
+              {description = "open a terminal", group = "launcher"}),				
     awful.key({ modkey, "Control" }, "r", awesome.restart,
               {description = "reload awesome", group = "awesome"}),
     awful.key({ modkey, "Shift"   }, "q", awesome.quit,
