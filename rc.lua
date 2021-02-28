@@ -297,6 +297,8 @@ globalkeys = gears.table.join(
               {description = "open zenity calender", group = "launcher"}),
     awful.key({ modkey, "Shift"   }, "s", function () awful.spawn("slock systemctl suspend -i") end,
               {description = "open zenity calender", group = "launcher"}),
+    
+    --Volume control
     awful.key({ }, "#121", function () awful.spawn("pactl set-sink-mute @DEFAULT_SINK@ toggle") end,
     	      {description = "mute volume", group = "launcher"}),
     awful.key({ }, "#122", function () awful.spawn("pactl set-sink-volume @DEFAULT_SINK@ -5%") end,
