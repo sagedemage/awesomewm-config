@@ -297,7 +297,7 @@ globalkeys = gears.table.join(
               {description = "open zenity calender", group = "launcher"}),
     awful.key({ modkey, "Shift"   }, "s", function () awful.spawn("slock systemctl suspend -i") end,
               {description = "open zenity calender", group = "launcher"}),
-    
+
     --Volume control
     awful.key({ }, "#121", function () awful.spawn("pactl set-sink-mute @DEFAULT_SINK@ toggle") end,
     	      {description = "mute volume", group = "launcher"}),
@@ -341,8 +341,8 @@ globalkeys = gears.table.join(
               {description = "restore minimized", group = "client"}),
 
     -- Prompt
-    -- awful.key({ modkey },            "r",     function () awful.screen.focused().mypromptbox:run() end,
-              -- {description = "run prompt", group = "launcher"}),
+    awful.key({ modkey, "Shift"   },   "r",     function () awful.screen.focused().mypromptbox:run() end,
+              {description = "run prompt", group = "launcher"}),
 
     awful.key({ modkey }, "x",
               function ()
