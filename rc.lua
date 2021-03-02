@@ -298,7 +298,7 @@ globalkeys = gears.table.join(
     -- Command shortcuts
     awful.key({ modkey,           }, "a", function () awful.spawn.with_shell("alacritty -e vim ~/.config/awesome/rc.lua") end,
               {description = "open zenity calender", group = "launcher"}),
-    awful.key({ modkey, "Shift"   }, "l", function() logout_popup.launch() end, {description = "Show logout screen", group = "custom"}),
+    awful.key({ modkey, "Control"   }, "l", function() logout_popup.launch() end, {description = "Show logout screen", group = "custom"}),
 
     --Volume control
     awful.key({ }, "#121", function () awful.spawn("pactl set-sink-mute @DEFAULT_SINK@ toggle") end,
