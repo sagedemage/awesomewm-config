@@ -18,6 +18,9 @@ local naughty = require("naughty")
 local menubar = require("menubar")
 local hotkeys_popup = require("awful.hotkeys_popup")
 
+-- Logout prompt
+local logout_popup = require("awesome-wm-widgets.logout-popup-widget.logout-popup")
+
 -- Enable hotkeys help widget for VIM and other apps
 -- when client with a matching name is opened:
 require("awful.hotkeys_popup.keys")
@@ -297,6 +300,7 @@ globalkeys = gears.table.join(
               {description = "open zenity calender", group = "launcher"}),
     awful.key({ modkey, "Shift"   }, "s", function () awful.spawn("slock systemctl suspend -i") end,
               {description = "open zenity calender", group = "launcher"}),
+    awful.key({ modkey, "Shift"   }, "l", function() logout_popup.launch() end, {description = "Show logout screen", group = "custom"}),
 
     --Volume control
     awful.key({ }, "#121", function () awful.spawn("pactl set-sink-mute @DEFAULT_SINK@ toggle") end,
