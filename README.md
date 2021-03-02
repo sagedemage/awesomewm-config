@@ -13,6 +13,6 @@ git clone https://github.com/streetturtle/awesome-wm-widgets
 git clone https://github.com/streetturtle/awesome-buttons
 ```
 ## Special thanks: 
---> streetturtle
-streetturtle's github: https://github.com/streetturtle
-streetturtle's repository, awesome-wm-widgets: https://github.com/streetturtle/awesome-wm-widgets
+streetturtle
+<li> streetturtle's github: https://github.com/streetturtle </li>
+<li> streetturtle's repository, awesome-wm-widgets: https://github.com/streetturtle/awesome-wm-widgets </li>
