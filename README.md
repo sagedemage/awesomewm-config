@@ -1,17 +1,17 @@
 # awesome-config
 
-## config location
+## config location:
 ~/.config/awesome/rc.lua
 
-## autorun script location
+## autorun script location:
 ~/.config/aweosme/autorun.sh
 
-## Add logout launcher from streetturtle's repostory called awesome-wm-widgets
+## Add logout launcher from streetturtle's repostory called awesome-wm-widgets:
 ```
 cd ./.config/awesome/
 git clone https://github.com/streetturtle/awesome-wm-widgets
 git clone https://github.com/streetturtle/awesome-buttons
 ```
-## Special thanks to 
+## Special thanks: 
 --> streetturtle
 streetturtle's github: https://github.com/streetturtle
