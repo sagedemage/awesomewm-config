@@ -8,7 +8,7 @@
 
 ## Add logout launcher from streetturtle's repostory called awesome-wm-widgets:
 ```
-cd ./.config/awesome/
+cd ~/.config/awesome/
 git clone https://github.com/streetturtle/awesome-wm-widgets
 git clone https://github.com/streetturtle/awesome-buttons
 ```
