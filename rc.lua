@@ -298,8 +298,6 @@ globalkeys = gears.table.join(
     -- Command shortcuts
     awful.key({ modkey,           }, "a", function () awful.spawn.with_shell("alacritty -e vim ~/.config/awesome/rc.lua") end,
               {description = "open zenity calender", group = "launcher"}),
-    awful.key({ modkey, "Shift"   }, "s", function () awful.spawn("slock systemctl suspend -i") end,
-              {description = "open zenity calender", group = "launcher"}),
     awful.key({ modkey, "Shift"   }, "l", function() logout_popup.launch() end, {description = "Show logout screen", group = "custom"}),
 
     --Volume control
