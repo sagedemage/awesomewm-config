@@ -18,6 +18,7 @@ git clone https://github.com/streetturtle/awesome-buttons
 ```
 
 ## Programs:
+### Install these programs from your linux distribution package manager.
 1. alacritty/lxterminal 
 2. dmenu
 3. rofi
