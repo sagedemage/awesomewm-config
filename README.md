@@ -1,5 +1,5 @@
 # About
-Here is the configuration to Awesome WM. Awesome WM's documentation is confusing if you do not know what you are looking for. I craeted this configuration to help get you familiar to Awesome WM and the Lua programming language. I listed the programs I use so all the shortcuts to that program work out of the box. 
+Here is the configuration to Awesome window manager. Awesome WM's documentation is confusing if you do not know what you are looking for. I craeted this configuration to help get you familiar to Awesome WM and the Lua programming language. I listed the programs I use so all the shortcuts to that program work out of the box. 
 
 ## Screenshot
 ![](awesomewm.png)
