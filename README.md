@@ -36,6 +36,8 @@ git clone https://github.com/streetturtle/awesome-buttons
 ## Credit to the creators of the i3 window manager
 https://awesomewm.org/
 
+https://github.com/awesomeWM/awesome
+
 ## Special Thanks: 
 <li> streetturtle: https://github.com/streetturtle </li>
 <li> streetturtle's repository, awesome-wm-widgets: https://github.com/streetturtle/awesome-wm-widgets </li>
