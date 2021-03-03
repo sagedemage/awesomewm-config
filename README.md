@@ -46,4 +46,4 @@ Github Repository: https://github.com/awesomeWM/awesome
 ## Special Thanks: 
 streetturtle: https://github.com/streetturtle 
 
-streetturtle's repository, awesome-wm-widgets: https://github.com/streetturtle/awesome-wm-widgets 
+streetturtle's repository (awesome-wm-widgets): https://github.com/streetturtle/awesome-wm-widgets 
