@@ -33,6 +33,9 @@ git clone https://github.com/streetturtle/awesome-buttons
 19. zenity
 20. discord
 
+## Credit to the creators of the i3 window manager
+https://awesomewm.org/
+
 ## Special Thanks: 
 <li> streetturtle: https://github.com/streetturtle </li>
 <li> streetturtle's repository, awesome-wm-widgets: https://github.com/streetturtle/awesome-wm-widgets </li>
