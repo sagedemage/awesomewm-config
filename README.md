@@ -34,9 +34,10 @@ git clone https://github.com/streetturtle/awesome-buttons
 20. discord
 
 ## Credit to the creators of the i3 window manager
-https://awesomewm.org/
+Official Website: https://awesomewm.org/
 
-https://github.com/awesomeWM/awesome
+Github Repository: https://github.com/awesomeWM/awesome
+
 
 ## Special Thanks: 
 <li> streetturtle: https://github.com/streetturtle </li>
