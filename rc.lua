@@ -57,7 +57,7 @@ beautiful.font = "DejaVu Sans 16"
 
 -- This is used later as the default terminal and editor to run.
 terminal = "alacritty"
-editor = os.getenv("EDITOR") or "vim"
+editor = os.getenv("EDITOR") or "nvim"
 editor_cmd = terminal .. " -e " .. editor
 
 -- Default modkey.
@@ -596,7 +596,7 @@ end)
 --client.connect_signal("focus", function(c) c.border_color = beautiful.border_focus end)
 --client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_normal end)
 
-awful.spawn.with_shell("~/.config/awesome/autorun.sh")
 awful.spawn.with_shell("/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1")
-awful.spawn.with_shell("~/.fehbg &")
+awful.spawn.with_shell("~/.fehbg &") 
+awful.spawn.with_shell("~/.config/awesome/autorun.sh")
 -- }}}

@@ -9,7 +9,7 @@ function run {
 
 run volumeicon
 run nm-applet
-run redshift
+run redshift-gtk
 run udiskie
 run unclutter &
 run discord --start-minimized 
