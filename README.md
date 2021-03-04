@@ -19,7 +19,7 @@ git clone https://github.com/streetturtle/awesome-buttons
 
 ## Programs:
 ### Install these programs from your linux distribution package manager.
-1. alacritty/lxterminal 
+1. alacritty or terminal emulator of your choice 
 2. dmenu
 3. rofi
 4. leafpad 
