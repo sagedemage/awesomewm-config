@@ -296,7 +296,7 @@ globalkeys = gears.table.join(
               {description = "open zenity calender", group = "launcher"}),
 
     -- Command shortcuts
-    awful.key({ modkey,           }, "a", function () awful.spawn.with_shell("alacritty -e vim ~/.config/awesome/rc.lua") end,
+    awful.key({ modkey,           }, "a", function () awful.spawn.with_shell("alacritty -e nvim ~/.config/awesome/rc.lua") end,
               {description = "open zenity calender", group = "launcher"}),
     awful.key({ modkey, "Control"   }, "l", function() logout_popup.launch() end, {description = "Show logout screen", group = "custom"}),
 
