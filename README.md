@@ -33,7 +33,7 @@ git clone https://github.com/streetturtle/awesome-buttons
 12. network-manager-applet 
 13. udiskie 
 14. polkit-gnome 
-16. pavucontrol
+16. pulseeffects/pavucontrol
 17. pulseaudio
 18. unclutter
 19. zenity
