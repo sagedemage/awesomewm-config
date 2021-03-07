@@ -307,8 +307,6 @@ globalkeys = gears.table.join(
     	      {description = "decrease volume", group = "launcher"}),
     awful.key({ }, "#123", function () awful.spawn("pactl set-sink-volume @DEFAULT_SINK@ +5%") end,
     	      {description = "increase volume", group = "launcher"}),
-    awful.key({ modkey,		   }, "q", myawesomemenu,
-    	      {description = "increase volume", group = "launcher"}),
 
     -- Awesome functions
     awful.key({ modkey, "Control" }, "r", awesome.restart,
